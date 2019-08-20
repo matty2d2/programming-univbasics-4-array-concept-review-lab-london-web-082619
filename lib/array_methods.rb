@@ -12,6 +12,7 @@ end
 def find_max_value(array)
   counter = 0
   max_val = array[0]
+  position = 0
 
   array.each do |i|
     if i > max_val
