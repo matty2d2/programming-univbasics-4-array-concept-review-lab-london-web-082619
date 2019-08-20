@@ -1,6 +1,6 @@
 def find_element_index(array, value_to_find)
   counter = 0
-  while array[counter] != value_to_find    #do this loop until we find the value_to_find
+  while array[counter] != value_to_find do    #do this loop until we find the value_to_find
     counter += 1
     if counter == array.length        #check to see if we have compared each value in the array
       return nil
