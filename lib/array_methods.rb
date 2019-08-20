@@ -15,7 +15,7 @@ def find_max_value(array)
 
   array.each do |i|
     if i > max_value
-      max_value = i
+      max_val = i
       position = counter
     end
     counter += 1
