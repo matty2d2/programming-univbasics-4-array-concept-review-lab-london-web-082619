@@ -10,18 +10,14 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  counter = 0
   max_val = array[0]
-  position = 0
 
   array.each do |i|
     if i > max_val
       max_val = i
-      position = counter
     end
-    counter += 1
   end
-  position
+  max_val
 end
 
 def find_min_value(array)
